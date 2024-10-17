@@ -1,0 +1,15 @@
+
+import random
+
+options = ["scissors", "paper", "rock"]
+computer = random.choice(options)
+you = input("Choose your option: ")
+if computer == you:
+    print(f"\nComputer's option: {computer}\nYour option: {you}")
+    print("\nIt's a tie!")
+elif (computer == "scissors" and you == "paper") or (computer == "paper" and you == "rock")or (computer == "rock" and you == "scissors"):
+    print(f"\nComputer's option: {computer}\nYour option: {you}")
+    print("\nComputer wins!")
+else:
+    print(f"\nComputer's option: {computer}\nYour option: {you}")
+    print("\nYou win!")
