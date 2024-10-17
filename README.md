@@ -14,7 +14,8 @@ Sudoku
 Hangman
 
 ## Technologies Used:
-Python (or any language you’re using)
+Python
+
 ## How to Run:
 Clone the repository.
 Navigate to the game directory.
