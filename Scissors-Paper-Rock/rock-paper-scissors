@@ -1,7 +1,7 @@
 
 import random
 
-options = ["scissors", "paper", "rock"]
+options = ["rock", "paper", "scissors"]
 computer = random.choice(options)
 you = input("Choose your option: ")
 if computer == you:
