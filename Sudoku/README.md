@@ -28,7 +28,7 @@ pip install streamlit
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/sudoku-game.git
+   git clone https://github.com/DianaMPaun/GAMES/tree/main/Sudoku
    cd sudoku-game
    ```
 
