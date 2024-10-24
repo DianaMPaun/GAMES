@@ -1,1 +1,0 @@
-You can play the game here: https://sudoku2.streamlit.app/
