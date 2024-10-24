@@ -47,7 +47,7 @@ pip install streamlit
 
 ### Streamlit App
 
-[sudoku](https://sudoku2.streamlit.app/)
+I created a Streamlit app for this game, and you can access it by clicking here: [sudoku](https://sudoku2.streamlit.app/)
 
 ## Screenshot
 
