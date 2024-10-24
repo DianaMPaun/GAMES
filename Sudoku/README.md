@@ -45,6 +45,10 @@ pip install streamlit
 4. Click on **Check Solution** when you are done.
 5. If the solution is correct, you will see "Congratulations! You solved the Sudoku." Otherwise, you’ll be prompted to correct any errors.
 
+### Streamlit App
+
+[sudoku](https://sudoku2.streamlit.app/)
+
 ## Screenshot
 
 ![image](https://github.com/user-attachments/assets/091705bf-60af-49e8-9790-6b4ab49ecc51)
