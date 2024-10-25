@@ -115,6 +115,18 @@ def display_emoji(outcome):
     elif outcome == "error":
         st.sidebar.markdown("<h1 style='font-size: 120px;'>😢</h1>", unsafe_allow_html=True)
 
+
+
+# Function to check the solution
+def check_solution(user_solution, puzzle, is_letter):
+    solution = [[puzzle[i][j] if puzzle[i][j] != 0 else user_solution[i][j] for j in range(9)] for i in range(9)]
+    if is_valid_solution(solution, is_letter):
+        st.success("Congratulations! You solved the Sudoku.")
+        display_emoji("success")
+    else:
+        st.error("There are some mistakes in your solution. Try again!")
+        display_emoji("error")
+
 # --- Main App ---
 
 def main():
@@ -132,7 +144,8 @@ def main():
     col1, col2 = st.columns([3, 1])
     col1.markdown("<h3>Let's play!</h3>", unsafe_allow_html=True)
     
-    if col2.button("START"):
+    # Handling the start button click
+    if col2.button("START") and not st.session_state.get('game_started', False):
         st.session_state['start_time'] = time.time()
         st.session_state['game_started'] = True
         st.session_state['puzzle'] = remove_elements(generate_sudoku(is_letter), difficulty)  # Reset the puzzle on start
@@ -188,16 +201,7 @@ def main():
         st.session_state['user_solution'] = [[0] * 9 for _ in range(9)]
         st.experimental_rerun()
 
-# Function to check the solution
-def check_solution(user_solution, puzzle, is_letter):
-    solution = [[puzzle[i][j] if puzzle[i][j] != 0 else user_solution[i][j] for j in range(9)] for i in range(9)]
-    if is_valid_solution(solution, is_letter):
-        st.success("Congratulations! You solved the Sudoku.")
-        display_emoji("success")
-    else:
-        st.error("There are some mistakes in your solution. Try again!")
-        display_emoji("error")
-
 if __name__ == "__main__":
     main()
+
 
