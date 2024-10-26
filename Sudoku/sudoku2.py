@@ -150,7 +150,7 @@ def main():
         st.session_state['game_started'] = True
         st.session_state['puzzle'] = remove_elements(generate_sudoku(is_letter), difficulty)  # Reset the puzzle on start
         st.session_state['user_solution'] = [[0] * 9 for _ in range(9)]  # Reset the user's solution
-        st.rerun()
+        #st.rerun()
 
     if 'game_started' not in st.session_state:
         st.session_state['game_started'] = False
@@ -199,7 +199,7 @@ def main():
     if st.button("New Puzzle"):
         st.session_state['puzzle'] = remove_elements(generate_sudoku(is_letter), difficulty)
         st.session_state['user_solution'] = [[0] * 9 for _ in range(9)]
-        st.rerun()
+        #st.rerun()
 
 if __name__ == "__main__":
     main()
