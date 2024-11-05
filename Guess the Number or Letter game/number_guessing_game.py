@@ -109,6 +109,26 @@ st.sidebar.write("---")
 game_choice = st.sidebar.radio("", ("Guess a Number", "Guess a Letter"))
 st.sidebar.write("---")
 
+# Instructions
+st.sidebar.markdown("""
+    ### Instructions:
+    - Choose a **difficulty level** from the sidebar (Easy, Medium, Hard) to set the maximum number of attempts and base points.
+    - Choose a **game type**:
+      - **Guess a Number**: Try to guess a randomly selected number between 0 and 100.
+      - **Guess a Letter**: Try to guess a randomly selected letter between 'a' and 'z'.
+    - Enter your guess in the provided input box:
+      - For numbers, enter a whole number (0-100).
+      - For letters, enter a lowercase letter (a-z).
+    - Click **Submit Guess** each time to see feedback:
+      - "Too high" or "Too low" for numbers.
+      - "Comes earlier" or "Comes later" for letters.
+    - The game ends when:
+      - You guess the correct answer, or
+      - You use all your attempts.
+    - Aim for a **high score** by guessing correctly in the fewest attempts possible!
+""")
+
+
 if game_choice == "Guess a Number":
     play_number_guess()
 else:
