@@ -1,4 +1,4 @@
-# Guess the Number or Letter Game 🎲🔠
+# Guess the Number or Letter Game 🔢🔤
 
 This interactive guessing game, built with Streamlit and Python, lets players choose between guessing a number or a letter. The game features multiple difficulty levels, score tracking, and a high score system, making it fun and challenging for players of all ages!
 
