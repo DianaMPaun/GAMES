@@ -47,7 +47,7 @@ Each game mode has multiple difficulty levels, affecting the number of attempts 
     streamlit run app.py
     ```
 ## Streamlit App
-I created a Streamlit app for this game, and you can access it by clicking here: sudoku
+I created a Streamlit app for this game, and you can access it by clicking here: [Guess the Number or Letter](https://github.com/DianaMPaun/GAMES/tree/main/Guess%20the%20Number%20or%20Letter%20game)
 
 ## 🖼 Screenshots
 
