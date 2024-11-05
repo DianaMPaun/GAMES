@@ -109,6 +109,12 @@ st.sidebar.write("---")
 game_choice = st.sidebar.radio("", ("Guess a Number", "Guess a Letter"))
 st.sidebar.write("---")
 
+
+if game_choice == "Guess a Number":
+    play_number_guess()
+else:
+    play_letter_guess()
+
 # Instructions
 st.sidebar.markdown("""
     ### Instructions:
@@ -127,12 +133,6 @@ st.sidebar.markdown("""
       - You use all your attempts.
     - Aim for a **high score** by guessing correctly in the fewest attempts possible!
 """)
-
-
-if game_choice == "Guess a Number":
-    play_number_guess()
-else:
-    play_letter_guess()
 
 st.write("## High Scores:")
 st.write(f"**Number Guess High Score:** {high_score['guess number']} points")
