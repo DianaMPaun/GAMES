@@ -12,6 +12,7 @@ Feel free to check them out, play around, and even contribute if you'd like. Enj
 - Rock-Paper-Scissors
 - Sudoku
 - Hangman
+- Guess the Number or Letter game
 
 ## Technologies Used:
 Python
