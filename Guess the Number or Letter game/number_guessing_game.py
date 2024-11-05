@@ -49,7 +49,7 @@ def play_number_guess():
                 high_score["guess number"] = st.session_state.score
             else:
                 st.write(f"Your score: {st.session_state.score}")
-            initialize_number_game()  # Start a new game
+            initialize_number_game() 
         elif guess > st.session_state.number:
             st.warning(f"{guess} is too high!")
         else:
@@ -57,7 +57,7 @@ def play_number_guess():
 
         if st.session_state.guesses >= max_attempts:
             st.error(f"Game over! You've used all {max_attempts} attempts. The number was {st.session_state.number}.")
-            initialize_number_game()  # Start a new game
+            initialize_number_game() 
 
 def initialize_letter_game():
     # Initialize or reset the letter game
@@ -90,7 +90,7 @@ def play_letter_guess():
                 high_score["guess letter"] = st.session_state.score
             else:
                 st.write(f"Your score: {st.session_state.score}")
-            initialize_letter_game()  # Start a new game
+            initialize_letter_game()  
         elif guess > st.session_state.letter:
             st.warning(f"{guess} comes later in the alphabet!")
         else:
@@ -98,7 +98,7 @@ def play_letter_guess():
 
         if st.session_state.guesses >= max_attempts:
             st.error(f"Game over! You've used all {max_attempts} attempts. The letter was '{st.session_state.letter}'.")
-            initialize_letter_game()  # Start a new game
+            initialize_letter_game()  
 
 # Streamlit UI
 st.title("Guess the Number or Letter Game")
