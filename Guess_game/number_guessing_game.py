@@ -75,7 +75,7 @@ def play_letter_guess():
         initialize_letter_game()
 
     st.write("**Guess the letter! Enter a letter between 'a' and 'z'.**")
-    st.image("https://github.com/DianaMPaun/GAMES/blob/main/Guess_game/abc.png")
+    st.image("Guess_game/abc.png")
     
     guess = st.text_input("Enter your guess:", max_chars=1, key="letter_guess").lower()
     
