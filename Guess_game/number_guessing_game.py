@@ -34,7 +34,7 @@ def play_number_guess():
         initialize_number_game()
 
     st.write("**Guess the number! Enter a number between 0 and 100.**")
-    st.image("emoji_numbers.png")
+    st.image("https://github.com/DianaMPaun/GAMES/blob/main/Guess_game/emoji_numbers.png")
 
     guess = st.number_input("Enter your guess:", min_value=0, max_value=100, key="number_guess")
     
