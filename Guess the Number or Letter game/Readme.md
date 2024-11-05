@@ -46,7 +46,8 @@ Each game mode has multiple difficulty levels, affecting the number of attempts 
     ```bash
     streamlit run app.py
     ```
-
+## Streamlit App
+I created a Streamlit app for this game, and you can access it by clicking here: sudoku
 
 ## 🖼 Screenshots
 
