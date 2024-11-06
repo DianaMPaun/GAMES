@@ -31,7 +31,7 @@ Each game mode has multiple difficulty levels, affecting the number of attempts 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/guess-game.git](https://github.com/DianaMPaun/GAMES/tree/main/Guess%20the%20Number%20or%20Letter%20game
+    git clone https://github.com/DianaMPaun/GAMES/tree/main/Guess%20the%20Number%20or%20Letter%20game
     cd guess-game
     ```
 
