@@ -57,3 +57,6 @@ The objective of the game is to play Rock-Paper-Scissors against the computer an
 - Libraries: No additional libraries required.
 
 ---
+### Streamlit App
+
+I created a Streamlit app for this game, and you can access it by clicking here: [sudoku](https://sudoku2.streamlit.app/)
