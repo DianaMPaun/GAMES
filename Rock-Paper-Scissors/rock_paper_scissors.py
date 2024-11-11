@@ -15,7 +15,7 @@ The game follows the well-known rules:
 - Paper beats Rock
 - Scissors beats Paper
 """)
-st.sidebar.image("https://github.com/DianaMPaun/GAMES/blob/main/Rock-Paper-Scissors/rock_paper_scissors.png")
+st.sidebar.image("Rock-Paper-Scissors/rock_paper_scissors.png")
 
 st.title("Rock-Paper-Scissors Game")
 
