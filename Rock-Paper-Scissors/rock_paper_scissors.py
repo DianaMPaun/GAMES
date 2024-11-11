@@ -33,7 +33,7 @@ if st.button("Play"):
 
     if computer == you:
         st.title("It's a tie!")
-        st.image("https://github.com/DianaMPaun/GAMES/blob/main/Rock-Paper-Scissors/confused.png")
+        st.image("Rock-Paper-Scissors/confused.png")
     elif (computer == "scissors" and you == "paper") or \
          (computer == "paper" and you == "rock") or \
          (computer == "rock" and you == "scissors"):
