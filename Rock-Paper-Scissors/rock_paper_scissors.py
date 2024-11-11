@@ -38,7 +38,7 @@ if st.button("Play"):
          (computer == "paper" and you == "rock") or \
          (computer == "rock" and you == "scissors"):
         st.title("Computer wins!")
-        st.image("nooo.png")
+        st.image("https://github.com/DianaMPaun/GAMES/blob/main/Rock-Paper-Scissors/nooo.png")
     else:
         st.title("You win!")
         st.image("https://github.com/DianaMPaun/GAMES/blob/main/Rock-Paper-Scissors/thumbs_up.png")
