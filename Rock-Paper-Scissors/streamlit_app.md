@@ -1,1 +1,1 @@
-I created a Streamlit app for this game, and you can access it by clicking HERE
+I created a Streamlit app for this game, and you can access it by clicking [HERE](https://rock-paper-sciss.streamlit.app/)
