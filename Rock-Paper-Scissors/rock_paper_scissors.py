@@ -41,4 +41,4 @@ if st.button("Play"):
         st.image("Rock-Paper-Scissors/images/nooo.png")
     else:
         st.title("You win!")
-        st.image("Rock-Paper-Scissors/thumbs_up.png")
+        st.image("Rock-Paper-Scissors/images/thumbs_up.png")
