@@ -16,7 +16,7 @@ The game follows the well-known rules:
 - Scissors beats Paper
 """)
 image_url = "https://github.com/DianaMPaun/GAMES/blob/main/Rock-Paper-Scissors/images/rock_paper_scissors.png"
-st.sidebar.image(image_url)
+st.sidebar.image(image_url, caption="Rock, Paper, Scissors Game")
 
 st.title("Rock-Paper-Scissors Game")
 
