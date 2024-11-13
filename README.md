@@ -16,7 +16,8 @@ Feel free to check them out, play around, and even contribute if you'd like. Enj
 
 
 ## Technologies Used:
-Python
+- Python
+- Streamlit
 
 ## How to Run:
 Clone the repository.
